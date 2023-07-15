@@ -108,19 +108,19 @@ html.theme-light::before {
 
 /* Do not Disturb Status*/
 .theme-dark rect[mask="url(#svg-mask-status-dnd)"] {
-    fill: #bf616a;
+    fill: #F43C44;
 }
 
 .theme-dark rect[mask="url(#svg-mask-status-online)"] {
-  fill: #a3be8c;
+  fill: #24A45C;
 }
 
 .theme-dark rect[mask="url(#svg-mask-status-idle)"] {
-  fill: #ebcb8b;
+  fill: #F3B434;
 }
 
 .theme-dark rect[mask="url(#svg-mask-status-online-mobile)"] {
-  fill: #a3be8c;
+  fill: #24A45C;
 }
 
 /* Mention Badge*/

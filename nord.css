@@ -1,12 +1,9 @@
 /**
  * @name Nord
- * @version 1.0.0
+ * @version 1.1.0
  * @description A theme for discord inspired by the deep blues of the Atlantic 
- * @website https://github.com/Daggy1234/Nord
+ * @website https://github.com/TheMonDon/Nord
  */
-
-
-
 
 :root {
     /* Color palette */
@@ -23,8 +20,9 @@
     --nord-scrollbar-track: var(--nord-primary);
     --nord-scrollbar-thumb: var(--nord-secondary);
 }
+
 html.theme-light::before {
-    content: "This is a dark mode theme. Maybe find a good light mod e theme lol";
+    content: "This is a dark mode theme. Maybe find a good light mode theme lol";
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     color: var(--nord-primary);
     text-align: center;
@@ -33,6 +31,7 @@ html.theme-light::before {
     right: 0;
     left: 0;
 }
+
 .theme-dark {
     --background-primary: var(--nord-primary);
     --background-secondary: var(--nord-secondary);
@@ -185,12 +184,12 @@ html.theme-light::before {
 }
 
  /* Bot tags not gay */
-.theme-dark .botTagRegular-2HEhHi {
+.theme-dark .botTagRegular_c89c9a {
   transition: .5s;
   background: rgba(114,137,218,0.1);
   color: #7289da;
 }
-.theme-dark .botTagRegular-2HEhHi:hover {
+.theme-dark .botTagRegular_c89c9a:hover {
   transition: .5s;
   background: #7289da;
   color: #fff;
